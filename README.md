@@ -1,8 +1,8 @@
 # backend-interview-prep-questions
 
 
-## Java
+## 🚩 Table of Contents
 
-## Thread
-
-## Network
+- [Java](./Java/README.md)
+- Network
+- Thread
