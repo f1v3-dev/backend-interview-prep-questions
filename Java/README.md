@@ -137,3 +137,65 @@
  
 </div>
 </details>
+
+---
+
+
+### Call by Value vs. Call by Reference
+
+<details>
+<summary>🔎 Answer</summary>
+<div markdown="1">
+
+- 둘은 함수 호출의 방법이라는 공통점이 존재합니다.
+- Call by Value : 값에 의한 호출로 인자로 받은 값을 **복사**하여 처리합니다.
+- Call by Reference : 참조에 의한 호출로, 받은 값의 **주소**를 참조하여 직접 값에 영향을 줍니다.
+
+- Java는 무조건 Call by Value 방식을 사용하지만, 참조 타입(객체)의 경우 객체의 메모리 주소를 저장하고 있기 때문에 값에 변화가 생깁니다.
+
+ 
+</div>
+</details>
+
+---
+
+### Java Primitive Type은 무엇인가요?
+
+<details>
+<summary>🔎 Answer</summary>
+<div markdown="1">
+
+- Java에는 원시 타입(Primitive Type)과 참조 타입(Reference Type)이 존재합니다.
+
+- 원시 타입은 값 자체를 가지고 있으나, 참조 타입은 객체의 메모리 주소를 저장하고 있습니다.
+
+- 원시 타입은 총 8가지로, byte, short, int, long, float, double, char, boolean이 있습니다.
+
+- 원시 타입의 값은 Stack에 저장되며, 참조 타입은 Heap에 저장됩니다.
+
+- 오토박싱, 언박싱을 통해 Primitive Type <-> Wrapper Class 사이의 자동으로 변환을 해줍니다.
+
+</div>
+</details>
+
+# 🌼 Spring
+
+### Spring - DI가 무엇인가요?
+
+<details>
+<summary>🔎 Answer</summary>
+<div markdown="1">
+
+> Spring IoC Container == Spring Container
+
+- 스프링 프레임워크에서 가장 중요한 개념 중 하나로, 객체 간의 의존성을 Spring Container가 관리하고 주입해주는 방식을 의미합니다.
+
+- Spring Container는 객체(Bean)의 생성부터 모든 생명주기를 관리하는데 이를 제어의 역전(IoC: Inversion of Control) 이라고 합니다. 이를 통해 객체 간의 결합도를 낮출 수 있습니다.
+
+- 의존성 주입 방법 : Constructor, Setter, Field 주입이 존재합니다. 하지만, 순환 참조, 필수 의존성 보장, 불변성 등의 이점이 있는 생성자(Contructor) 주입이 권장됩니다.
+
+- DI(Dependency Injection)를 사용함으로써 객체 의존을 위해 새로운 객체를 생성 및 관리하지 않고 필요한 의존성을 외부에서 주입을 받게 됩니다.
+
+ 
+</div>
+</details>
