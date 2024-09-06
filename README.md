@@ -6,4 +6,5 @@
 - [Interview](./Interveiw/README.md)
 - [Java](./Java/README.md)
 - [Network](./Network/README.md)
-- Thread
+- [Thread](./Thread/README.md)
+- [OS](./OS/README.md)
